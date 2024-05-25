@@ -1,0 +1,41 @@
+SUM+ x x
+RES- x x
+MUL* x x
+DIV/ x x
+MOD% x x
+PO** x x
+EQ== x x
+NEQ!= x x
+LT> x x
+GT< x x
+LE>= x x
+GE<= x x
+AND&& x x
+OR|| x x
+NOT! x
+SET= x
+IADD+= x
+ISUB-= x
+()
+{}
+[]
+;
+-
+CIFOR (x)
+CIWHI (x)
+SI (x)
+ELSE (x)
+ELSI (x)
+CLS (x)
+ITF (x)
+VAR x
+FNC {}
+CLS {}
+ent32 x
+dec12 x
+str128 x
+chr48 x
+ENT x
+DEC x
+STR x
+CHR x
