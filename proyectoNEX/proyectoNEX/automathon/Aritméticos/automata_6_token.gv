@@ -1,0 +1,16 @@
+digraph "automathon/Aritméticos/automata_6_token" {
+	graph [rankdir=LR]
+	node [color=lightblue2 shape=circle style=filled]
+	edge [color=blue fontcolor=red fontsize=12 style=dashed]
+	"" [label="" shape=plaintext]
+	q4 [label=q4 shape=doublecircle]
+	q2 [label=q2 shape=circle]
+	q1 [label=q1 shape=circle]
+	q0 [label=q0 shape=circle]
+	q3 [label=q3 shape=circle]
+	"" -> q0 [label=""]
+	q0 -> q1 [label=P]
+	q1 -> q2 [label=O]
+	q2 -> q3 [label="*"]
+	q3 -> q4 [label="*"]
+}

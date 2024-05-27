@@ -1,0 +1,10 @@
+digraph "automathon/Terminal/automata_22_token" {
+	graph [rankdir=LR]
+	node [color=lightblue2 shape=circle style=filled]
+	edge [color=blue fontcolor=red fontsize=12 style=dashed]
+	"" [label="" shape=plaintext]
+	q1 [label=q1 shape=doublecircle]
+	q0 [label=q0 shape=circle]
+	"" -> q0 [label=""]
+	q0 -> q1 [label=";"]
+}
